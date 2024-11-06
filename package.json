@@ -1,0 +1,9 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+      "express": "4.17.1",
+      "axios": "0.20.0"
+    }
+  }
