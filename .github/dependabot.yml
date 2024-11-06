@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directories:
+      - "/"
+      - "/project-1"
+      - "/project-2"
+    schedule:
+      interval: "daily"
