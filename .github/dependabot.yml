@@ -1,9 +1,14 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directories:
-      - "/"
-      - "/project-1"
-      - "/project-2"
+    directory: "/project-1"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directory: "/project-2"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directory: "/"
     schedule:
       interval: "weekly"
